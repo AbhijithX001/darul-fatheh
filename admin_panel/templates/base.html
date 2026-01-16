@@ -145,11 +145,10 @@
                                                 <li><a href="{% url 'admin_panel:services' %}"><strong>All Services</strong></a></li>
                                             </ul>
                                         </li> {% endcomment %}
-
+                                        
                                         <li class="dropdown">
                                             <a href="{% url 'admin_panel:courses' %}" onclick="window.location.href=this.href">Courses</a>
                                             <ul>
-                                                {% comment %} <li><a href="{% url 'admin_panel:courses' %}"><strong>All Courses</strong></a></li> {% endcomment %}
                                                 {% for course in navbar_courses %}
                                                     <li>
                                                         <a href="{% url 'admin_panel:course_detail' course.slug %}">
@@ -161,6 +160,7 @@
                                                 {% endfor %}
                                             </ul>
                                         </li>
+
                                         <li><a href="{%url 'admin_panel:blog'%}">Blogs</a></li>
 
                                         {% comment %} <li class="dropdown">

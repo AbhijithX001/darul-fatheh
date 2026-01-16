@@ -58,6 +58,9 @@ def dashboard(request):
         'total_testimonials': Testimonial.objects.count(),
         'recent_messages': ContactMessage.objects.all().order_by('-created_at')[:5],
         'recent_donations': DonationDetails.objects.all().order_by('-donated_at')[:5],
+
+        # 'navbar_courses': Course.objects.filter(is_active=True).order_by('-created_at')[:5],
+
     }
     return render(request, 'admin_panel/dashboard.html', context)
 
