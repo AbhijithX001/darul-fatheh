@@ -73,10 +73,11 @@
         </div>
     </section>
 
-    <section class="about-message-section" style="padding: 100px 0; background-color: #f9f9f9;">
+    <section class="about-message-section responsive-padding" style="background-color: #f9f9f9;">
         <div class="auto-container">
             <div class="row clearfix align-items-center">
-                <div class="col-lg-12 col-md-12 col-sm-12">
+                
+                <div class="col-lg-8 col-md-12 col-sm-12">
                     <div class="sec-title">
                         <div class="sec-title_title" style="color: var(--main-color) !important;">From the Desk of the Secretary</div>
                         <h2 class="sec-title_heading">Our Vision & Mission</h2>
@@ -94,9 +95,29 @@
                         </div>
                     </div>
                 </div>
+    
+                <div class="col-lg-4 col-md-12 col-sm-12 d-none d-lg-block text-center">
+                    <div class="image-box" style="padding-bottom: 90px;"> <img src="{% static 'assets/images/logo.png' %}" alt="Vision and Mission" >
+                    </div>
+                </div>
+    
             </div>
         </div>
     </section>
+    
+    <style>
+       
+    
+        /* Mobile Padding Adjustment */
+        @media (max-width: 768px) {
+            .responsive-padding {
+                padding: 50px 0; /* Reduces huge white space on mobile */
+            }
+            .sec-title_heading {
+                font-size: 28px; /* Prevents large headings from breaking layout */
+            }
+        }
+    </style>
 
     <section class="institute-one">
         <div class="auto-container">

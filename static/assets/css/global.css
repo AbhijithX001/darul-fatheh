@@ -65,7 +65,7 @@
     --main-color-rgb: 9, 27, 65;
     
     /* Secondary Accent: Deep Red (replaces Yellow) */
-    --color-two: rgb(149, 48, 48);
+    --color-two: rgb(197, 31, 42);
     --color-two-rgb: 149, 48, 48;
 
     /* Text/Dark Elements: Navy Blue (replaces Soft Black) */
@@ -84,7 +84,7 @@
     --color-six-rgb: 9, 27, 65;
 
     /* Highlights: Deep Red */
-    --color-seven: rgb(149, 48, 48);
+    --color-seven: rgb(197, 31, 42);
     --color-seven-rgb: 149, 48, 48;
 
     /* Secondary Backgrounds: Cream */
@@ -148,7 +148,7 @@
     --color-twentyfour-rgb: 9, 27, 65;
 
     /* Accents: Deep Red */
-    --color-twentyfive: rgb(149, 48, 48);
+    --color-twentyfive: rgb(197, 31, 42);
     --color-twentyfive-rgb: 149, 48, 48;
     
     /* Light Grey */
@@ -217,7 +217,7 @@
     --color-fourtythree-rgb: 231, 233, 232;
 
     /* Accents: Deep Red */
-    --color-fourtyfour: rgb(149, 48, 48);
+    --color-fourtyfour: rgb(197, 31, 42);
     --color-fourtyfour-rgb: 149, 48, 48;
 
     /* Backgrounds: Light Grey */
